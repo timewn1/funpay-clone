@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 60px;
+    border-bottom: 1px solid #e4e4e4;
+
+    a {
+        text-decoration: none;
+        margin: 0px 10px 0px 10px;
+        color: #919191;
+
+        &:hover {
+            color: black;
+        }
+    }
+
+}

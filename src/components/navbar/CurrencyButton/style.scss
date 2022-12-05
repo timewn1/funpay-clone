@@ -1,0 +1,29 @@
+.currency-button {
+    position: relative;
+
+    .main-button {
+        display: flex;
+        cursor: pointer;
+        color: #919191;
+
+        p {
+            margin-right: 5px;
+        }
+
+        &:hover {
+            color: black;
+        }
+    }
+
+    .collapse-menu {
+        position: absolute;
+        width: 170px;
+        right: 0;
+        // padding: 10px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.22);
+
+        .currency {
+            padding: 7px 15px;
+        }
+    }
+}
